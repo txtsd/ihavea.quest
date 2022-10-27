@@ -15,7 +15,7 @@ Up until earlier this month, I had been using `localhost:<port>` to access servi
 
 ### Khazad-dûm
 
-Moria is my favorite place in ALL of Tolkien's works! I absolutely love the Dwarves, their lore, and Dwarven architecture. It should come as no surprise, then, that I named my local domain `khazad.dum`. Navigating to it in the browser yields a list of local services which are reverse proxies to individual subdomains. There is Jackett, FlareSolverr, SyncThing, and :8080, to name a few.
+[Moria](https://en.wikipedia.org/wiki/Moria,_Middle-earth) is my favorite place in ALL of Tolkien's works! I absolutely love the Dwarves, their lore, and Dwarven architecture. It should come as no surprise, then, that I named my local domain `khazad.dum`. Navigating to it in the browser yields a list of local services which are reverse proxies to individual subdomains. There is [Jackett](https://github.com/Jackett/Jackett), [FlareSolverr](https://github.com/FlareSolverr/FlareSolverr), [Syncthing](https://github.com/syncthing/syncthing/), and :8080, to name a few.
 
 This worked out of the box for everything except Firefox, which parsed the domain in the URL bar as a search query since .dum is not a TLD in the IANA Root Zone Database.
 
@@ -31,7 +31,7 @@ As a bonus, I get to access these services across my home network. There's no ne
 
 ### Blocking Ads
 
-Ad blocking is relatively easy using `unbound`. For the initial iteration, I used Dan Pollock's hosts file and grep-awk'd it into the `unbound.conf` format. It seems to work well so far for everyone on WiFi. Not all ads are blocked, but most are. I'll be adding more domains to block as I find suitable sources. I might have to maintain my own list too. Local ads here in India absolutely prey upon the mind, naïve or otherwise. And no one should have to deal with that while browsing the Internet.
+Ad blocking is relatively easy using `unbound`. For the initial iteration, I used [Dan Pollock's hosts file](https://someonewhocares.org/hosts/hosts) and grep-awk'd it into the `unbound.conf` format. It seems to work well so far for everyone on WiFi. Not all ads are blocked, but most are. I'll be adding more domains to block as I find suitable sources. I might have to maintain my own list too. Local ads here in India absolutely prey upon the mind, naïve or otherwise. And no one should have to deal with that while browsing the Internet.
 
 ### Router (read: proprietary hell)
 
