@@ -115,7 +115,9 @@ li {
   margin: 0.5em 2em;
 }
 
-article h1, article h2 , article h3{
+article h1,
+article h2,
+article h3 {
   margin: 0.75em 0.25em 0.25em 0.25em;
 }
 
@@ -156,8 +158,26 @@ section {
   margin: 1em;
 }
 
-section h1, section h2, section h3 {
+section h1,
+section h2,
+section h3 {
   margin-bottom: 0.5em;
+}
+
+.link_outgoing {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.card li {
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: #424559;
+  list-style-type: none;
+}
+
+.card li nav {
+  margin-top: 1em;
 }
 
 /*
