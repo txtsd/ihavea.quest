@@ -107,7 +107,7 @@ footer {
 }
 
 main {
-  width: 45%;
+  width: 55%;
 }
 
 li {
@@ -164,8 +164,8 @@ section h1, section h2, section h3 {
  * Media Queries
  */
 
-@media (max-width: 50em) {
+@media (max-width: 60em) {
   main {
-    width: unset;
+    width: 95%;
   }
 }
