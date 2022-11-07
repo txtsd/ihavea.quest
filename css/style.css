@@ -154,14 +154,14 @@ code {
   background: #222;
 }
 
-section {
+main section {
   margin: 1em;
 }
 
-section h1,
-section h2,
-section h3 {
+main section h1,
+main section h2 {
   margin-bottom: 0.5em;
+  margin-top: 1em;
 }
 
 .link_outgoing {
