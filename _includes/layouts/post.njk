@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 <article>
   <header>
-    <h1>{{ title }}</h1>
+    <h2>{{ title }}</h2>
     <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
   </header>
   {{ content | safe }}
