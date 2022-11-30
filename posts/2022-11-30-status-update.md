@@ -14,7 +14,7 @@ The [projects](/projects) page used to be just a plaintext list. It is now flesh
 
 My [GitHub Sponsors profile](https://github.com/sponsors/txtsd/) was finally approved this month, so I added a link to that on my [about](/about) page.
 
-## FOSS dev
+## FOSS Development
 
 I spent a lot of time contributing to FOSS projects this month.
 
@@ -48,13 +48,13 @@ This month's [changes](https://github.com/z411/trackma/pull/653) to Trackma incl
 
 ### Catppuccin Color Scheme for Sublime Text
 
-After seeing a lot of my developer colleagues use and recommend [Catppuccin](https://catppuccin.com) over the past few months, I finally decided to see what the excitement was all about, and boy did I fall hard for it. I've been using [Adapta](https://github.com/adapta-project/adapta-gtk-theme)-like themes including [Arc](https://github.com/arc-design/arc-theme) since my X11 days on [Openbox](http://openbox.org). These are primarily GTK themes, so making the rest of my system look and feel like the theme required a lot of additional work like configuring `qt5ct` and `qt6ct` to use GTK styles, manually implementing colors for `.XResources` and `rxvt-unicode` which is the terminal I used at the time, and also for editors like [Sublime Text](https://www.sublimetext.com/), which can adaptively pull in a theme, but not a color scheme. These themes also only support GTK2 and GTK3, but not GTK4.
+After seeing a lot of my developer colleagues use and recommend [Catppuccin](https://catppuccin.com) over the past few months, I finally decided to see what the excitement was all about, and boy did I fall hard for it. I've been using [Adapta](https://github.com/adapta-project/adapta-gtk-theme)-like themes including [Arc](https://github.com/arc-design/arc-theme) since my X11 days on [Openbox](http://openbox.org). These are primarily GTK themes, so making the rest of my system look and feel like the theme required a lot of additional work like configuring `qt5ct` and `qt6ct` to use GTK styles, manually implementing colors for `.XResources` and `rxvt-unicode` which is the terminal I used at the time, and also for editors like [Sublime Text](https://www.sublimetext.com/), which can dynamically pull in a theme, but not a color scheme. These themes also only support GTK2 and GTK3, but not GTK4.
 
-Catppuccin is a pastel theme that aims to be the middle ground between low and high contrast themes. It is an amazing community-driven effort that offers themes for a ridiculous number of applications, including but not limited to, Code Editors, System Applications, Shells, Websites, Games, Music Players, Browsers, Search Engines, Messengers, Note-taking Applications, and Terminals. There are approimately [160 repositories](https://github.com/orgs/catppuccin/repositories) for these under the Catppuccin GitHub organization at the time of writing this post.
+Catppuccin is a pastel theme that aims to be the middle ground between low and high contrast themes. It is an amazing community-driven effort that offers themes for a ridiculous number of applications, including but not limited to, Code Editors, System Applications, Shells, Websites, Games, Music Players, Browsers, Search Engines, Messengers, Note-taking Applications, and Terminals. There are approximately [160 repositories](https://github.com/orgs/catppuccin/repositories) for these under the Catppuccin GitHub organization at the time of writing this post.
 
 I went down the rabbit hole of applying these themes to my <abbr title="Desktop Environment">DE</abbr> for a system-wide unified look and feel a week or so ago, and it has been absolutely amazing!
 
-The color scheme for Sublime Text kept throwing an error every time ST was started or when the configuration was reloaded, so I decided to give it a look and found a file that only existed to create the color scheme files. It wasn't an actualy part of the color scheme for ST. I submitted a [pull request](https://github.com/catppuccin/sublime-text/pull/8) to have that file removed, so everyone else using the color scheme can benefit from it too.
+The color scheme for Sublime Text kept throwing an error every time ST was started or when the configuration was reloaded, so I decided to give it a look and found a file that only existed to create the color scheme files. It wasn't an actually part of the color scheme for ST. I submitted a [pull request](https://github.com/catppuccin/sublime-text/pull/8) to have that file removed, so everyone else using the color scheme can benefit from it too.
 
 ### PyLNP
 
