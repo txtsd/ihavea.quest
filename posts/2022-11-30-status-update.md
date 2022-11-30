@@ -58,7 +58,7 @@ The color scheme for Sublime Text kept throwing an error every time ST was start
 
 ### PyLNP
 
-PyLNP is a launcher for Dwarf Fortress. It has a variety of useful features to manage settings and configure the base game. It can also manage, configure, install, and run a wide variety of related content - from graphics to color schemes, and utility programs to content-replacing mods.
+[PyLNP](https://github.com/Pidgeot/python-lnp) is a launcher for [Dwarf Fortress](https://www.bay12games.com/dwarves/). It has a variety of useful features to manage settings and configure the base game. It can also manage, configure, install, and run a wide variety of related content - from graphics to color schemes, and utility programs to content-replacing mods.
 
 I used to play Dwarf Fortress a lot around 2014-2016, and I contributed [some](https://github.com/Pidgeot/python-lnp/commit/b644ef112f9e056b4c2dd2c92d4d10dde5252b65) [changes](https://github.com/Pidgeot/python-lnp/commit/70fe6beacdc04489da30b57531c4a1242fb7d6c9) to PyLNP at the time. The repo was on bitbucket at the time and used mercurial instead of git so it was kind of difficult to navigate then. It's on GitHub now and uses git so I dived right in.
 
