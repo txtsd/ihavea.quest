@@ -28,10 +28,14 @@ module.exports = function(eleventyConfig) {
     return moment(date).utc().format('LL'); // E.g. May 31, 2019
   });
 
+  // the default is "passthrough"
+  eleventyConfig.setServerPassthroughCopyBehavior("copy");
   // CSS Passthrough
   eleventyConfig.addPassthroughCopy('css')
   // Images Passthrough
   eleventyConfig.addPassthroughCopy('img')
+  // Fonts Passthrough
+  eleventyConfig.addPassthroughCopy('font')
 
   return {
     passthroughFileCopy: true

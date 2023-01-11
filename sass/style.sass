@@ -1,6 +1,18 @@
-$font-stack-sans-serif: sans-serif
-$font-stack-serif: serif
-$font-stack-mono: monospace
+@font-face
+  font-family: "Vollkorn"
+  src: local("Vollkorn Regular"), url("/font/Vollkorn-Regular.woff2") format("woff2")
+
+@font-face
+  font-family: "Poppins"
+  src: local("Poppins Regular"), url("/font/Poppins-Regular.woff") format("woff")
+
+@font-face
+  font-family: "SourceCodePro"
+  src: local("Source Code Pro Regular"), url("/font/SourceCodePro-Regular.woff") format("woff")
+
+$font-stack-serif: "Vollkorn", serif
+$font-stack-sans-serif: "Poppins", sans-serif
+$font-stack-mono: "SourceCodePro", monospace
 
 *
   margin: 0
@@ -9,13 +21,13 @@ $font-stack-mono: monospace
 
 html
   background-color: #282A36
-  font-family: $font-stack-sans-serif
   font-size: 1em
 
 body
   display: flex
   flex-direction: column
   align-items: center
+  font-family: $font-stack-sans-serif
 
 #splash
   margin: auto 0
@@ -48,10 +60,14 @@ nav li
 
 #splash h2
   margin: 1em
+  text-align: center
 
 a
   color: #8ada00
   text-decoration: none
+
+nav a
+  font-weight: bold
 
 .pixel
   padding: 0.5em
@@ -83,7 +99,7 @@ a
   background-color: #994f00
 
 article
-  margin: 2em
+  margin: 1em
 
 footer
   margin: 2em
@@ -104,20 +120,26 @@ article h3
 article p
   margin: 0.75em
 
+p
+  line-height: 1.25em
+
 article time
   margin: 0.75em 1.5em 2em 1.5em
 
 article header
   margin-bottom: 2em
 
+h1, h2, h3, h4, h5
+  font-family: $font-stack-serif
+
 h1
-  font-size: 2em
+  font-size: 2.5em
 
 h2
-  font-size: 1.5em
+  font-size: 2em
 
 h3
-  font-size: 1.2em
+  font-size: 1.5em
 
 article img
   max-width: 100%
