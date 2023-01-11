@@ -1,7 +1,21 @@
+const eleventySass = require("eleventy-sass");
 const moment = require('moment');
 moment.locale('en');
 
 module.exports = function(eleventyConfig) {
+  // Eleventy SASS
+  eleventyConfig.addPlugin(eleventySass, [
+    {
+      compileOptions: {
+        permalink: function(permalinkString, inputPath) {
+          return (data) => {
+            return data.page.filePathStem.replace(/^\/sass\//, "/css/") + ".css";
+          };
+        }
+      }
+    }
+  ]);
+
   // Date formatting
   // from: https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/
   eleventyConfig.addFilter('dateIso', date => {
