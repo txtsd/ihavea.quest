@@ -1,18 +1,27 @@
 @font-face
-  font-family: "Vollkorn"
-  src: local("Vollkorn Regular"), url("/font/Vollkorn-Regular.woff2") format("woff2")
+  font-family: 'Vollkorn'
+  font-style: normal
+  font-weight: 400
+  font-display: fallback
+  src: local('Vollkorn Regular'), url('/font/vollkorn-v21-latin-regular.woff2') format('woff2'), url('/font/vollkorn-v21-latin-regular.woff') format('woff')
 
 @font-face
-  font-family: "Poppins"
-  src: local("Poppins Regular"), url("/font/Poppins-Regular.woff") format("woff")
+  font-family: 'Poppins'
+  font-style: normal
+  font-weight: 400
+  font-display: fallback
+  src: local('Poppins Regular'), url('/font/poppins-v20-latin-regular.woff2') format('woff2'), url('/font/poppins-v20-latin-regular.woff') format('woff')
 
 @font-face
-  font-family: "SourceCodePro"
-  src: local("Source Code Pro Regular"), url("/font/SourceCodePro-Regular.woff") format("woff")
+  font-family: 'Source Code Pro'
+  font-style: normal
+  font-weight: 400
+  font-display: fallback
+  src: local('Source Code Pro Regular'), url('/font/source-code-pro-v22-latin-regular.woff2') format('woff2'), url('/font/source-code-pro-v22-latin-regular.woff') format('woff')
 
 $font-stack-serif: "Vollkorn", serif
 $font-stack-sans-serif: "Poppins", sans-serif
-$font-stack-mono: "SourceCodePro", monospace
+$font-stack-mono: "Source Code Pro", monospace
 
 *
   margin: 0
