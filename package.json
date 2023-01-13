@@ -6,8 +6,7 @@
   "scripts": {
     "build": "npx eleventy",
     "serve": "npx eleventy --serve",
-    "debug": "DEBUG=* npx eleventy",
-    "deploy": "netlify deploy --site=$NETLIFY_SITE_ID --dir=_site --prod"
+    "debug": "DEBUG=* npx eleventy"
   },
   "keywords": [],
   "author": "txtsd <thexerothermicsclerodermoid@gmail.com>",
@@ -16,7 +15,6 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-canary.25",
     "eleventy-sass": "^2.1.6",
-    "moment": "^2.29.4",
-    "netlify-cli": "^12.7.2"
+    "moment": "^2.29.4"
   }
 }
