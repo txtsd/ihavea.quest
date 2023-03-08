@@ -3,18 +3,27 @@ oauth: pages.sr.ht/PAGES:RW
 packages:
   - npm
   - nodejs
-  - hut
+secrets:
+  - ee56e449-e495-4364-b489-5d93d5c273da
 environment:
   site: ihavea.quest
   # https://docs.npmjs.com/cli/v6/using-npm/config#progress
   CI: true
+  NETLIFY_SITE_ID: f812dd67-5f2e-451b-8ad4-10b65be5a1ad
 tasks:
   - install: |
       cd $site
       npm install
   - package: |
       cd $site
-      npm run build
+      NODE_ENV=production npm run build
       tar -C _site -cvz . > ../site.tar.gz
-  - upload: |
-      hut pages publish -d $site site.tar.gz
+  - deploy: |
+      cd $site
+      {
+        set +x
+        . ~/.buildsecrets
+        set -x
+      }
+      export NETLIFY_AUTH_TOKEN
+      npm run deploy
