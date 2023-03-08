@@ -9,7 +9,7 @@ environment:
   site: ihavea.quest
   # https://docs.npmjs.com/cli/v6/using-npm/config#progress
   CI: true
-  NETLIFY_SITE_ID: f812dd67-5f2e-451b-8ad4-10b65be5a1ad
+  NETLIFY_SITE_ID: 49076d01-f95d-4e74-9416-a17fe3d91167
 tasks:
   - install: |
       cd $site
