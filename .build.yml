@@ -1,3 +1,5 @@
+# Based on: https://colbyhub.com/deploy-to-netlify-with-sourcehut/
+
 image: alpine/edge
 oauth: pages.sr.ht/PAGES:RW
 packages:
