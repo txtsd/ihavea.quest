@@ -14,9 +14,9 @@
   "license": "AGPL-3.0-only",
   "homepage": "https://ihavea.quest",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.25",
-    "eleventy-sass": "^2.1.6",
+    "@11ty/eleventy": "^2.0.0",
+    "eleventy-sass": "^2.2.1",
     "moment": "^2.29.4",
-    "netlify-cli": "^12.7.2"
+    "netlify-cli": "^12.14.0"
   }
 }
