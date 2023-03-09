@@ -3,3 +3,6 @@ node_modules
 img/icons/*.png
 img/icons/*.svg
 !img/icons/*-white.svg
+
+# Local Netlify folder
+.netlify
