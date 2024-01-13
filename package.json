@@ -1,6 +1,6 @@
 {
   "name": "ihavea.quest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "txtsd's homepage",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "deploy": "netlify deploy --site=$NETLIFY_SITE_ID --dir=_site --prod"
   },
   "keywords": [],
-  "author": "txtsd <thexerothermicsclerodermoid@gmail.com>",
+  "author": "txtsd <txtsd@ihavea.quest>",
   "license": "AGPL-3.0-only",
   "homepage": "https://ihavea.quest",
   "devDependencies": {
