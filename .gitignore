@@ -1,5 +1,5 @@
 _site
-node_modules
+**/node_modules/**
 img/icons/*.png
 img/icons/*.svg
 !img/icons/*-white.svg
