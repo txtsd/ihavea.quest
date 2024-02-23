@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Projects
 ---
 <section>
-  <h2>Featured Projects</h2>
+  <h2>minecraft et al.</h2>
   <ul class="card">
     <li>
       <h3>Prism Launcher</h3>
@@ -31,25 +31,27 @@ title: Projects
       </nav>
     </li>
     <li>
-      <h3>unbound-cache</h3>
-      <p>A script to manage unbound's DNS cache using unbound-control</p>
+      <h3>mcrpc</h3>
+      <p>MCRPC (Minecraft Resource Pack Comparator) checks your resource pack against any version of Minecraft to show
+        resources missing from your pack for that version. It can also compare any two versions of Minecraft and show
+        missing (added) files.</p>
       <nav>
-        <a href="https://sr.ht/~txtsd/unbound-cache" title="SourceHut project">
+        <a href="https://sr.ht/~txtsd/mcrpc" title="SourceHut project">
           <img src="/img/icons/sourcehut-white.svg" alt="SourceHut project" class="link_outgoing">
         </a>
-        <a href="https://codeberg.org/txtsd/unbound-cache" title="Codeberg mirror">
+        <a href="https://codeberg.org/txtsd/mcrpc" title="Codeberg mirror">
           <img src="/img/icons/codeberg-white.svg" alt="Codeberg mirror" class="link_outgoing">
         </a>
-        <a href="https://notabug.org/txtsd/unbound-cache" title="NotABug mirror">
+        <a href="https://notabug.org/txtsd/mcrpc" title="NotABug mirror">
           <img src="/img/icons/notabug-white.png" alt="NotABug mirror" class="link_outgoing">
         </a>
-        <a href="https://gitlab.com/txtsd/unbound-cache" title="GitLab mirror">
+        <a href="https://gitlab.com/txtsd/mcrpc" title="GitLab mirror">
           <img src="/img/icons/gitlab-white.svg" alt="GitLab mirror" class="link_outgoing">
         </a>
-        <a href="https://github.com/txtsd/unbound-cache" title="GitHub mirror">
+        <a href="https://github.com/txtsd/mcrpc" title="GitHub mirror">
           <img src="/img/icons/github-white.svg" alt="GitHub mirror" class="link_outgoing">
         </a>
-        <a href="https://bitbucket.org/txtsd/unbound-cache" title="Bitbucket mirror">
+        <a href="https://bitbucket.org/txtsd/mcrpc" title="Bitbucket mirror">
           <img src="/img/icons/bitbucket-white.svg" alt="Bitbucket mirror" class="link_outgoing">
         </a>
       </nav>
@@ -58,7 +60,40 @@ title: Projects
 </section>
 
 <section>
-  <h2>More Projects</h2>
+  <h2>Arch Linux specific</h2>
+  <ul class="card">
+    <li>
+      <h3>archosaur</h3>
+      <p>A PKGBUILD management framework for the Arch User Repository</p>
+      <nav>
+        <a href="https://github.com/txtsd/archosaur/" title="GitHub Repo">
+          <img src="/img/icons/github-white.svg" alt="GitHub repo" class="link_outgoing">
+        </a>
+      </nav>
+    </li>
+    <li>
+      <h3>ankylosaurus</h3>
+      <p>txtsd's PKGBUILDs for the Arch User Repository</p>
+      <nav>
+        <a href="https://github.com/txtsd/ankylosaurus/" title="GitHub Repo">
+          <img src="/img/icons/github-white.svg" alt="GitHub repo" class="link_outgoing">
+        </a>
+      </nav>
+    </li>
+    <li>
+      <h3>centaur</h3>
+      <p>A PKGBUILD updater for jackett, jackett-bin, and jackett-mono, on the AUR</p>
+      <nav>
+        <a href="https://github.com/txtsd/centaur/" title="GitHub Repo">
+          <img src="/img/icons/github-white.svg" alt="GitHub repo" class="link_outgoing">
+        </a>
+      </nav>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Assorted</h2>
   <ul class="card">
     <li>
       <h3>ripLINEStickers</h3>
@@ -109,30 +144,6 @@ title: Projects
       </nav>
     </li>
     <li>
-      <h3>ornauto</h3>
-      <p>An autoplayer for Orna</p>
-      <nav>
-        <a href="https://sr.ht/~txtsd/ornauto" title="SourceHut project">
-          <img src="/img/icons/sourcehut-white.svg" alt="SourceHut project" class="link_outgoing">
-        </a>
-        <a href="https://codeberg.org/txtsd/ornauto" title="Codeberg mirror">
-          <img src="/img/icons/codeberg-white.svg" alt="Codeberg mirror" class="link_outgoing">
-        </a>
-        <a href="https://notabug.org/txtsd/ornauto" title="NotABug mirror">
-          <img src="/img/icons/notabug-white.png" alt="NotABug mirror" class="link_outgoing">
-        </a>
-        <a href="https://gitlab.com/txtsd/ornauto" title="GitLab mirror">
-          <img src="/img/icons/gitlab-white.svg" alt="GitLab mirror" class="link_outgoing">
-        </a>
-        <a href="https://github.com/txtsd/ornauto" title="GitHub mirror">
-          <img src="/img/icons/github-white.svg" alt="GitHub mirror" class="link_outgoing">
-        </a>
-        <a href="https://bitbucket.org/txtsd/ornauto" title="Bitbucket mirror">
-          <img src="/img/icons/bitbucket-white.svg" alt="Bitbucket mirror" class="link_outgoing">
-        </a>
-      </nav>
-    </li>
-    <li>
       <h3>fb2vcard</h3>
       <p>A set of python scripts to pull contacts from Facebook and convert them to csv and vcard</p>
       <nav>
@@ -157,86 +168,29 @@ title: Projects
       </nav>
     </li>
     <li>
-      <h3>mcrpc</h3>
-      <p>MCRPC (Minecraft Resource Pack Comparator) checks your resource pack against any version of Minecraft to show
-        resources missing from your pack for that version. It can also compare any two versions of Minecraft and show
-        missing (added) files.</p>
+      <h3>unbound-cache</h3>
+      <p>A script to manage unbound's DNS cache using unbound-control</p>
       <nav>
-        <a href="https://sr.ht/~txtsd/mcrpc" title="SourceHut project">
+        <a href="https://sr.ht/~txtsd/unbound-cache" title="SourceHut project">
           <img src="/img/icons/sourcehut-white.svg" alt="SourceHut project" class="link_outgoing">
         </a>
-        <a href="https://codeberg.org/txtsd/mcrpc" title="Codeberg mirror">
+        <a href="https://codeberg.org/txtsd/unbound-cache" title="Codeberg mirror">
           <img src="/img/icons/codeberg-white.svg" alt="Codeberg mirror" class="link_outgoing">
         </a>
-        <a href="https://notabug.org/txtsd/mcrpc" title="NotABug mirror">
+        <a href="https://notabug.org/txtsd/unbound-cache" title="NotABug mirror">
           <img src="/img/icons/notabug-white.png" alt="NotABug mirror" class="link_outgoing">
         </a>
-        <a href="https://gitlab.com/txtsd/mcrpc" title="GitLab mirror">
+        <a href="https://gitlab.com/txtsd/unbound-cache" title="GitLab mirror">
           <img src="/img/icons/gitlab-white.svg" alt="GitLab mirror" class="link_outgoing">
         </a>
-        <a href="https://github.com/txtsd/mcrpc" title="GitHub mirror">
+        <a href="https://github.com/txtsd/unbound-cache" title="GitHub mirror">
           <img src="/img/icons/github-white.svg" alt="GitHub mirror" class="link_outgoing">
         </a>
-        <a href="https://bitbucket.org/txtsd/mcrpc" title="Bitbucket mirror">
+        <a href="https://bitbucket.org/txtsd/unbound-cache" title="Bitbucket mirror">
           <img src="/img/icons/bitbucket-white.svg" alt="Bitbucket mirror" class="link_outgoing">
         </a>
       </nav>
     </li>
-    <li>
-      <h3>neobots</h3>
-      <p>neobots is a Habitarium autoplayer</p>
-      <nav>
-        <a href="https://sr.ht/~txtsd/neobots" title="SourceHut project">
-          <img src="/img/icons/sourcehut-white.svg" alt="SourceHut project" class="link_outgoing">
-        </a>
-        <a href="https://codeberg.org/txtsd/neobots" title="Codeberg mirror">
-          <img src="/img/icons/codeberg-white.svg" alt="Codeberg mirror" class="link_outgoing">
-        </a>
-        <a href="https://notabug.org/txtsd/neobots" title="NotABug mirror">
-          <img src="/img/icons/notabug-white.png" alt="NotABug mirror" class="link_outgoing">
-        </a>
-        <a href="https://gitlab.com/txtsd/neobots" title="GitLab mirror">
-          <img src="/img/icons/gitlab-white.svg" alt="GitLab mirror" class="link_outgoing">
-        </a>
-        <a href="https://github.com/txtsd/neobots" title="GitHub mirror">
-          <img src="/img/icons/github-white.svg" alt="GitHub mirror" class="link_outgoing">
-        </a>
-        <a href="https://bitbucket.org/txtsd/neobots" title="Bitbucket mirror">
-          <img src="/img/icons/bitbucket-white.svg" alt="Bitbucket mirror" class="link_outgoing">
-        </a>
-      </nav>
-    </li>
-    <li>
-      <h3>Plight-Rising</h3>
-      <p>Plight Rising contains scripts that will let you automate certain dailies on Flight Rising, and automatically
-        play the Coliseum.</p>
-      <nav>
-        <a href="https://sr.ht/~txtsd/Plight-Rising" title="SourceHut project">
-          <img src="/img/icons/sourcehut-white.svg" alt="SourceHut project" class="link_outgoing">
-        </a>
-        <a href="https://codeberg.org/txtsd/Plight-Rising" title="Codeberg mirror">
-          <img src="/img/icons/codeberg-white.svg" alt="Codeberg mirror" class="link_outgoing">
-        </a>
-        <a href="https://notabug.org/txtsd/Plight-Rising" title="NotABug mirror">
-          <img src="/img/icons/notabug-white.png" alt="NotABug mirror" class="link_outgoing">
-        </a>
-        <a href="https://gitlab.com/txtsd/plight-rising" title="GitLab mirror">
-          <img src="/img/icons/gitlab-white.svg" alt="GitLab mirror" class="link_outgoing">
-        </a>
-        <a href="https://github.com/txtsd/Plight-Rising" title="GitHub mirror">
-          <img src="/img/icons/github-white.svg" alt="GitHub mirror" class="link_outgoing">
-        </a>
-        <a href="https://bitbucket.org/txtsd/plight-rising" title="Bitbucket mirror">
-          <img src="/img/icons/bitbucket-white.svg" alt="Bitbucket mirror" class="link_outgoing">
-        </a>
-      </nav>
-    </li>
-  </ul>
-</section>
-
-<section>
-  <h2>Legacy Projects</h2>
-  <ul class="card">
     <li>
       <h3>qB-IPT</h3>
       <p>A plugin for qBittorrent to search on iptorrents.com</p>
@@ -286,4 +240,83 @@ title: Projects
       </nav>
     </li>
   </ul>
+</section>
+
+<section>
+    <h2>Autoplaying bots</h2>
+    <ul class="card">
+    <li>
+      <h3>ornauto</h3>
+      <p>An autoplayer for Orna</p>
+      <nav>
+        <a href="https://sr.ht/~txtsd/ornauto" title="SourceHut project">
+          <img src="/img/icons/sourcehut-white.svg" alt="SourceHut project" class="link_outgoing">
+        </a>
+        <a href="https://codeberg.org/txtsd/ornauto" title="Codeberg mirror">
+          <img src="/img/icons/codeberg-white.svg" alt="Codeberg mirror" class="link_outgoing">
+        </a>
+        <a href="https://notabug.org/txtsd/ornauto" title="NotABug mirror">
+          <img src="/img/icons/notabug-white.png" alt="NotABug mirror" class="link_outgoing">
+        </a>
+        <a href="https://gitlab.com/txtsd/ornauto" title="GitLab mirror">
+          <img src="/img/icons/gitlab-white.svg" alt="GitLab mirror" class="link_outgoing">
+        </a>
+        <a href="https://github.com/txtsd/ornauto" title="GitHub mirror">
+          <img src="/img/icons/github-white.svg" alt="GitHub mirror" class="link_outgoing">
+        </a>
+        <a href="https://bitbucket.org/txtsd/ornauto" title="Bitbucket mirror">
+          <img src="/img/icons/bitbucket-white.svg" alt="Bitbucket mirror" class="link_outgoing">
+        </a>
+      </nav>
+    </li>
+    <li>
+      <h3>neobots</h3>
+      <p>neobots is a Habitarium autoplayer for neopets</p>
+      <nav>
+        <a href="https://sr.ht/~txtsd/neobots" title="SourceHut project">
+          <img src="/img/icons/sourcehut-white.svg" alt="SourceHut project" class="link_outgoing">
+        </a>
+        <a href="https://codeberg.org/txtsd/neobots" title="Codeberg mirror">
+          <img src="/img/icons/codeberg-white.svg" alt="Codeberg mirror" class="link_outgoing">
+        </a>
+        <a href="https://notabug.org/txtsd/neobots" title="NotABug mirror">
+          <img src="/img/icons/notabug-white.png" alt="NotABug mirror" class="link_outgoing">
+        </a>
+        <a href="https://gitlab.com/txtsd/neobots" title="GitLab mirror">
+          <img src="/img/icons/gitlab-white.svg" alt="GitLab mirror" class="link_outgoing">
+        </a>
+        <a href="https://github.com/txtsd/neobots" title="GitHub mirror">
+          <img src="/img/icons/github-white.svg" alt="GitHub mirror" class="link_outgoing">
+        </a>
+        <a href="https://bitbucket.org/txtsd/neobots" title="Bitbucket mirror">
+          <img src="/img/icons/bitbucket-white.svg" alt="Bitbucket mirror" class="link_outgoing">
+        </a>
+      </nav>
+    </li>
+    <li>
+      <h3>Plight-Rising</h3>
+      <p>Plight Rising contains scripts that will let you automate certain dailies on Flight Rising, and automatically
+        play the Coliseum.</p>
+      <nav>
+        <a href="https://sr.ht/~txtsd/Plight-Rising" title="SourceHut project">
+          <img src="/img/icons/sourcehut-white.svg" alt="SourceHut project" class="link_outgoing">
+        </a>
+        <a href="https://codeberg.org/txtsd/Plight-Rising" title="Codeberg mirror">
+          <img src="/img/icons/codeberg-white.svg" alt="Codeberg mirror" class="link_outgoing">
+        </a>
+        <a href="https://notabug.org/txtsd/Plight-Rising" title="NotABug mirror">
+          <img src="/img/icons/notabug-white.png" alt="NotABug mirror" class="link_outgoing">
+        </a>
+        <a href="https://gitlab.com/txtsd/plight-rising" title="GitLab mirror">
+          <img src="/img/icons/gitlab-white.svg" alt="GitLab mirror" class="link_outgoing">
+        </a>
+        <a href="https://github.com/txtsd/Plight-Rising" title="GitHub mirror">
+          <img src="/img/icons/github-white.svg" alt="GitHub mirror" class="link_outgoing">
+        </a>
+        <a href="https://bitbucket.org/txtsd/plight-rising" title="Bitbucket mirror">
+          <img src="/img/icons/bitbucket-white.svg" alt="Bitbucket mirror" class="link_outgoing">
+        </a>
+      </nav>
+    </li>
+    </ul>
 </section>
