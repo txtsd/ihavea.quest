@@ -36,6 +36,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('img')
   // Fonts Passthrough
   eleventyConfig.addPassthroughCopy('font')
+  // robots.txt Passthrough
+  eleventyConfig.addPassthroughCopy('robots.txt')
 
   return {
     passthroughFileCopy: true
