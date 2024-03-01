@@ -16,7 +16,6 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
     "eleventy-sass": "^2.2.1",
-    "moment": "^2.29.4",
-    "netlify-cli": "^12.14.0"
+    "moment": "^2.29.4"
   }
 }
