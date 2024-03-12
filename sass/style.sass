@@ -150,6 +150,9 @@ h2
 h3
   font-size: 1.5em
 
+h4
+  font-size: 1.25em
+
 article img
   max-width: 100%
 
@@ -176,6 +179,37 @@ main section h2
   background-color: #424559
   list-style-type: none
 
+.card_package h3, .card_package p
+  color: #333
+
+.card_package li
+  margin: 1em 1em 0 1em
+  padding: 1em
+  background-color: #424559
+  list-style-type: none
+
+.card_package li ul li
+  background-color: #313244
+  list-style-type: none
+
+$colors: #f5c2e7, #cba6f7, #f38ba8, #fab387, #f9e2af, #a6e3a1, #94e2d5, #74c7ec, #89b4fa, #b4befe
+@for $i from 1 through length($colors)
+  .card_package>li:nth-child(#{length($colors)}n+#{$i})
+    background-color: nth($colors, $i)
+
+.card_package li ul li p
+  color: #ddd
+
+.card_package li ul
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+.card_package li ul li
+  display: flex
+  flex-direction: column
+  align-items: center
+
 .card li nav
   margin-top: 1em
 
@@ -190,6 +224,8 @@ main section h2
 /*
  * Media Queries
  */
-@media (max-width: 60em)
+@media (max-width: 78em)
   main
     width: 95%
+  .card_package li ul
+    flex-direction: column
