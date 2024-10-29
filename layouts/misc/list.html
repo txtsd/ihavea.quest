@@ -1,0 +1,20 @@
+{{ define "main" }}
+  {{ with .Content }}
+    <div class="index-content">
+      {{ . }}
+    </div>
+  {{ end }}
+  <div class="posts">
+    {{ range .Paginator.Pages }}
+    <ul>
+      <li class="post on-list">
+        <h2 class="">
+          <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        </h2>
+      </li>
+    </ul>
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
+  </div>
+{{ end }}
