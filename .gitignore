@@ -1,8 +1,10 @@
-_site
-**/node_modules/**
-img/icons/*.png
-img/icons/*.svg
-!img/icons/*-white.svg
+/_backup/
+/public/
+assets/img/icons/*.png
+assets/img/icons/*.svg
+!assets/img/icons/*-white.svg
+
+.hugo_build.lock
 
 # Local Netlify folder
 .netlify

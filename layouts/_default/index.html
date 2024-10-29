@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.Language }}">
+<head>
+  {{ block "title" . }}
+    <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
+  {{ end }}
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <div class="content">
+  <div id="splash">
+
+    {{ $image := resources.Get "/img/oldman.svg" }}
+    <img id="oldman" src="{{ $image.RelPermalink }}" />
+
+
+    <h2>It's dangerous to go alone! Take this.</h2>
+
+    <header>
+      {{ $image := resources.Get "/img/sword_base.svg" }}
+      <img id="hilt" src="{{ $image.RelPermalink }}" />
+      <nav id="front">
+        <ul>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/misc">Misc</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+      {{ $image := resources.Get "/img/sword_tip.svg" }}
+      <img id="tip" src="{{ $image.RelPermalink }}" />
+    </header>
+
+  </div>
+  </div>
+
+</div>
+
+</body>
+</html>
