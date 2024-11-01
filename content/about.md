@@ -57,6 +57,7 @@ If you'd like to talk about any of my blog posts that aren't tech related, [emai
 ## Donate
 
 {{< figure-inline src="/img/icons/liberapay-white.svg" alt="LiberaPay logo" position="left" style="display:inline; border: none; width: 6em" caption="LiberaPay" captionPosition="center" captionStyle="width: 6em;" link="https://liberapay.com/txtsd/" >}}
-{{< figure-inline src="/img/icons/ko-fi-white.svg" alt="Ko-fi logo" position="left" style="display:inline; border: none; width: 6em" caption="Ko-fi" captionPosition="center" captionStyle="width: 6em;" link="https://ko-fi.com/txtsd" >}}
+{{< figure-inline src="/img/icons/kofi-white.svg" alt="Ko-fi logo" position="left" style="display:inline; border: none; width: 6em" caption="Ko-fi" captionPosition="center" captionStyle="width: 6em;" link="https://ko-fi.com/txtsd" >}}
+{{< figure-inline src="/img/icons/paypal-white.svg" alt="PayPal logo" position="left" style="display:inline; border: none; width: 6em" caption="PayPal" captionPosition="center" captionStyle="width: 6em;" link="https://paypal.me/txtsd" >}}
 {{< figure-inline src="/img/icons/patreon-white.svg" alt="Patreon logo" position="left" style="display:inline; border: none; width: 6em" caption="Patreon" captionPosition="center" captionStyle="width: 6em;" link="https://patreon.com/c/txtsd" >}}
-{{< figure-inline src="/img/icons/github-white.svg" alt="GitHub logo" position="left" style="display:inline; border: none; width: 6em" caption="Github Sponsors" captionPosition="center" captionStyle="width: 6em;" link="https://github.com/sponsors/txtsd/" >}}
+{{< figure-inline src="/img/icons/githubsponsors-white.svg" alt="GitHub Sponsors logo" position="left" style="display:inline; border: none; width: 6em" caption="Github Sponsors" captionPosition="center" captionStyle="width: 6em;" link="https://github.com/sponsors/txtsd/" >}}
