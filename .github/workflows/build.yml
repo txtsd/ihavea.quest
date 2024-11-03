@@ -11,18 +11,20 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [20.x]
+        hugo-version: ['0.136.5']
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          submodules: 'recursive'
+
+      - name: Hugo setup
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ matrix.hugo-version }}
+          extended: true
 
       - name: Install dependencies & build
         run: |
-          npm install
-          npm run build
+          hugo
 
