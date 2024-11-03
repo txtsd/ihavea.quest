@@ -31,6 +31,7 @@ Head over to my [Projects](/projects) and [GitHub](https://github.com/txtsd) pag
 Here's a list of things I can do:
 
 * Package your software for Arch Linux on the [AUR](https://aur.archlinux.org)
+* Setup the [Servarr stack](https://wiki.servarr.com) for you
 * Bug Fixes
 * Codebase cleanups
 * Bring codebases up to current standards
