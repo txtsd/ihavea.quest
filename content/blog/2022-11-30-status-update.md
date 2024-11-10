@@ -2,7 +2,10 @@
 title: Status Update, November 2022
 date: 2022-11-30
 tags: []
+aliases:
+  - /posts/2022-11-30-status-update/
 ---
+
 Hey!
 
 This month was basically a blur, but I got a lot of things done.

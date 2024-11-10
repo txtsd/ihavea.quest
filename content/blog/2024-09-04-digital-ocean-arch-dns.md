@@ -2,6 +2,8 @@
 title: Fixing DNS issues on the Arch cloud image on Digital Ocean
 date: 2024-09-04
 tags: []
+aliases:
+  - /posts/2024-09-04-digital-ocean-arch-dns/
 ---
 
 ## The issue

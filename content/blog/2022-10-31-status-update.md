@@ -2,7 +2,10 @@
 title: Status Update, October 2022
 date: 2022-10-31
 tags: []
+aliases:
+  - /posts/2022-10-31-status-update/
 ---
+
 Hello!
 
 This month went by relatively fast! Plenty of things happened, both planned and unexpected.

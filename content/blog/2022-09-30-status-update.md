@@ -2,6 +2,8 @@
 title: Status Update, September 2022
 date: 2022-09-30
 tags: []
+aliases:
+  - /posts/2022-09-30-status-update/
 ---
 
 Hey!

@@ -2,7 +2,10 @@
 title: Status Update, December 2022
 date: 2022-12-28
 tags: []
+aliases:
+  - /posts/2022-12-28-status-update/
 ---
+
 Hello!
 
 A significant chunk of this month and the last were spent being sick. It took a lot out of me.

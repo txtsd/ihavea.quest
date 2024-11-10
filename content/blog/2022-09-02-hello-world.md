@@ -2,6 +2,8 @@
 title: Hello, World!
 date: 2022-09-02
 tags: []
+aliases:
+  - /posts/2022-09-02-hello-world/
 ---
 
 I finally got around to creating this blog! It took me longer than I thought it would, even considering the parenting, house-spousing, depression, and curve balls in life.
