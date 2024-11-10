@@ -32,8 +32,14 @@ title: Projects
 
 *   ### ankylosaurus
 
-    txtsd's PKGBUILDs for the Arch User Repository  
+    txtsd's general PKGBUILDs for the Arch User Repository  
     [ankylosaurus GitHub](https://github.com/txtsd/ankylosaurus)
+
+
+*   ### auricularr
+
+    txtsd's media stack PKGBUILDs for the Arch User Repository  
+    [auricularr GitHub](https://github.com/txtsd/auricularr)
 
 *   ### centaur
 
