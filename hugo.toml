@@ -58,9 +58,9 @@ theme = "terminal"
     title = "I have a quest!"
 
     [languages.en.params]
-      subtitle = "All about txtsd and their antics"
+      subtitle = "FOSS developer, Arch Linux packager, and builder of kind"
       owner = "txtsd"
-      keywords = "txtsd, minecraft, Arch Linux, Free and Open Source Software, FOSS, FLOSS, copyleft licenses, GPL, AGPL, autoplaying bots"
+      keywords = "txtsd, kind, native Discord client, C++, Qt, FOSS, Free and Open Source Software, copyleft, Arch Linux, AUR, Prism Launcher, minecraft"
       copyright = ""
       menuMore = "Show more"
       readMore = "Read more"
