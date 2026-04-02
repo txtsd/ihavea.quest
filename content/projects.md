@@ -9,7 +9,7 @@ title: Projects
 
 *   ### kind
 
-    kind (kind is not discord) is a native, cross-platform Discord client built in C++ and Qt 6. Not an Electron wrapper. Supports guilds, channels, DMs, full message rendering, unread tracking, and more. Free, open source, and ad-free.
+    kind (kind is not discord) is a native, cross-platform Discord client built in C++ and Qt 6. Not an Electron wrapper. Supports guilds, channels, DMs, full message rendering, unread tracking, and more. Free, open source, and ad-free.  
     [kind.ihavea.quest](https://kind.ihavea.quest) :: [kind GitHub](https://github.com/txtsd/kind)
 
 
@@ -22,7 +22,7 @@ title: Projects
 
 *   ### Prism Launcher Chocolatey package
 
-    The Prism Launcher Chocolatey package
+    The Prism Launcher Chocolatey package  
     [Chocolatey package](https://community.chocolatey.org/packages/prismlauncher) :: [Sourcehut](https://git.sr.ht/~txtsd/prismlauncher-chocolatey)
 
 *   ### mcrpc
