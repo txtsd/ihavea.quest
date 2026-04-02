@@ -5,7 +5,7 @@ draft: false
 title: Projects
 ---
 
-## Discord clients
+## Performant Alternatives
 
 *   ### kind
 
@@ -22,8 +22,8 @@ title: Projects
 
 *   ### Prism Launcher Chocolatey package
 
-    The Prism Launcher Chocolatey package  
-    [Chocolatey package](https://community.chocolatey.org/packages/prismlauncher) :: [git.sr.ht/~txtsd](https://git.sr.ht/~txtsd/prismlauncher-chocolatey)
+    The Prism Launcher Chocolatey package
+    [Chocolatey package](https://community.chocolatey.org/packages/prismlauncher) :: [Sourcehut](https://git.sr.ht/~txtsd/prismlauncher-chocolatey)
 
 *   ### mcrpc
 
