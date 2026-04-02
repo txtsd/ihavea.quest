@@ -13,6 +13,29 @@ title: Projects
     [kind.ihavea.quest](https://kind.ihavea.quest) :: [kind GitHub](https://github.com/txtsd/kind)
 
 
+## TurtleWoW
+
+*   ### LazyArms
+
+    A combat automation addon for Arms Warriors on TurtleWoW. Handles ability prioritization, stance management, rage optimization, and swing timer gating. Reads character stats dynamically from the game client.  
+    [LazyArms GitHub](https://github.com/txtsd/LazyArms)
+
+*   ### HearthDB
+
+    A Rust DLL plugin that gives TurtleWoW addons the ability to read from and write to SQLite databases from within the game client.  
+    [HearthDB GitHub](https://github.com/The-Kludge-Bureau/HearthDB)
+
+*   ### Reliquary
+
+    A Rust DLL plugin for reading TurtleWoW's DBC (DataBase Client) files directly from within the game, exposing game data tables to Lua addon code.  
+    [Reliquary GitHub](https://github.com/The-Kludge-Bureau/Reliquary)
+
+*   ### nampowerDB
+
+    A library that facilitates writing SavedVariable data to file, preventing data loss when TurtleWoW crashes.  
+    [nampowerDB GitHub](https://github.com/The-Kludge-Bureau/nampowerDB)
+
+
 ## Minecraft stuff
 
 *   ### Prism Launcher
