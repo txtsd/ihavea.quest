@@ -1,0 +1,16 @@
+<header class="header">
+  <div class="header__sword">
+    <img class="sword-img sword-hilt" src="/img/sword_base.svg" alt="" aria-hidden="true" />
+    <nav class="sword-nav" aria-label="primary">
+      <a class="sword-home" href="/">QUEST</a>
+      <span class="sword-nav-links">
+        {{ range $.Site.Menus.main }}
+          {{ if not .HasChildren }}
+            <a href="{{ .URL }}" {{ if .Params.NewTab -}} target="_blank" {{- end }}>{{ .Name }}</a>
+          {{ end }}
+        {{ end }}
+      </span>
+    </nav>
+    <img class="sword-img sword-tip" src="/img/sword_tip.svg" alt="" aria-hidden="true" />
+  </div>
+</header>
