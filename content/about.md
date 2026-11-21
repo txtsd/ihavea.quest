@@ -10,13 +10,11 @@ Hey!
 
 I'm txtsd! You might know me as Raven, in meatspace.
 
-I'm a home-maker and a full-time parent.
+I'm an [enby](https://en.wikipedia.org/wiki/Enby) and a full-time single-parent.
 
-I spend my free time developing and packaging Free and Open Source Software [(FOSS)](https://www.gnu.org/philosophy/free-sw.html).
-I use FOSS in a myriad of manners to make my daily life rich and easy.
-Most of my code is published under a [copyleft license](https://en.wikipedia.org/wiki/Copyleft) because software freedom is not negotiable. Proprietary lock-in, surveillance capitalism, the exploitation of open source labour, and the commodification of basic digital infrastructure are all symptoms of the same disease. I do not build software to feed that machine.
-
-That said, the people I communicate with are on Discord, and I'm not going to pretend otherwise. Discord is a proprietary platform run by a company whose values I do not share, but it is where my communities live. Rather than suffer through their bloated Electron client every day, I'm building [kind](https://kind.ihavea.quest), a native alternative in C++ and Qt 6 that respects your hardware and your time. It is not the ideal solution. It is the practical one, until something better replaces the need entirely.
+I spend my free time developing and packaging Free and Open Source Software [(FOSS)](https://www.gnu.org/philosophy/free-sw.html). \
+Most of my code is published under a [copyleft license](https://en.wikipedia.org/wiki/Copyleft) because software freedom is not negotiable. \
+Unethical capitalist business practices and [technofascism](https://en.wiktionary.org/wiki/technofascism) can suck it.
 
 I've been using GNU/Linux since 2014, specifically [Arch Linux](https://archlinux.org/).
 
@@ -39,9 +37,9 @@ Here's a list of things I can do:
 
 ## Contact Me
 
-If you'd like to hire me or send an inquiry, feel free to [email me](mailto:txtsd@ihavea.quest)!
+If you'd like to hire me, send an inquiry, or yap about tech, feel free to [email me](mailto:txtsd@ihavea.quest)!
 
-If you'd like to talk about any of my blog posts that aren't tech related, [email me here](mailto:dawson@ihavea.quest) instead.
+If you'd like to talk about any of my blog posts that aren't tech related, [email me here](mailto:ravem@ihavea.quest) instead.
 
 ## Code Forges
 
