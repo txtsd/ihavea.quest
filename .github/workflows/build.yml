@@ -11,10 +11,10 @@ jobs:
 
     strategy:
       matrix:
-        hugo-version: ['0.159.2', 'latest']
+        hugo-version: ['0.170.1', 'latest']
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           submodules: 'recursive'
 

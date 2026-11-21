@@ -1,5 +1,5 @@
 baseurl = "https://ihavea.quest"
-languageCode = "en-us"
+locale = "en-US"
 theme = "terminal"
 
 [params]
@@ -54,13 +54,13 @@ theme = "terminal"
 
 [languages]
   [languages.en]
-    languageName = "English"
+    label = "English"
     title = "I have a quest!"
 
     [languages.en.params]
-      subtitle = "FOSS developer, Arch Linux packager, and builder of kind"
+      subtitle = "All about txtsd: A FOSS developer and AUR packager"
       owner = "txtsd"
-      keywords = "txtsd, kind, native Discord client, C++, Qt, FOSS, Free and Open Source Software, copyleft, Arch Linux, AUR, Prism Launcher, minecraft"
+      keywords = "txtsd, kind, native Discord client, C++, Qt, FOSS, Free and Open Source Software, copyleft, Arch Linux, AUR, Prism Launcher, minecraft, WoW addons, The Kludge Bureau"
       copyright = ""
       menuMore = "Show more"
       readMore = "Read more"
@@ -105,3 +105,8 @@ theme = "terminal"
   replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
 # [[module.imports]]
 #   path = 'github.com/panr/hugo-theme-terminal/v4'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
